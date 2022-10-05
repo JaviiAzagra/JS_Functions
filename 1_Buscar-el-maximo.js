@@ -2,9 +2,11 @@
 
 function sum(numberOne , numberTwo) {
     if (numberOne > numberTwo) {
-        return numberOne;
+        console.log("El numero mayor es: " + numberOne);
     } else {
-        return numberTwo;
+        console.log("El numero mayor es: " + numberTwo);
     }
-  }
+}
+
+
   
