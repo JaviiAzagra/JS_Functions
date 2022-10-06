@@ -7,8 +7,11 @@ let promedio = 0;
 
 function averageWord(mixed) {
   for (let i = 0; i < mixed.length; i++) {
-    if (typeof mixed[i] === "string"){
+    if (typeof mixed[i] === "string") {
       promedio += mixed[i].length;
+    }
+    else if (typeof mixed[i] === "number") {
+      promedio += mixed[i];
     }
   } return promedio;
 }
